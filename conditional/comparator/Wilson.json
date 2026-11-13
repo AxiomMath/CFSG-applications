@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge.Wilson.Fast",
+  "solution_module": "CFSGOutside.Wilson.Paper",
+  "theorem_names": [
+    "CFSGOutside.Wilson.wilson_theorem2star",
+    "CFSGOutside.Wilson.lemma4"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

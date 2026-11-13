@@ -1,0 +1,12 @@
+{
+  "challenge_module": "Challenge.LoefflerPsl2Sections.Fast",
+  "solution_module": "CFSGOutside.LoefflerPsl2Sections.Paper",
+  "theorem_names": [
+    "CFSGOutside.LoefflerPsl2Sections.loeffler_simple_section"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "challenge_module": "Challenge.GuralnickShumyatsky.Fast",
+  "solution_module": "CFSGOutside.GuralnickShumyatsky.Paper",
+  "theorem_names": [
+    "CFSGOutside.GuralnickShumyatsky.theorem_3_1",
+    "CFSGOutside.GuralnickShumyatsky.theorem_3_6",
+    "CFSGOutside.GuralnickShumyatsky.corollary_3_3",
+    "CFSGOutside.GuralnickShumyatsky.corollary_3_4",
+    "CFSGOutside.GuralnickShumyatsky.corollary_3_5"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

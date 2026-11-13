@@ -1,0 +1,11 @@
+{
+  "challenge_module": "Challenge.KhukhroShumyatskyNonsolubleLength.Clean",
+  "solution_module": "CFSGOutsideClean.KhukhroShumyatskyNonsolubleLength",
+  "theorem_names": [
+    "CFSGOutsideClean.KhukhroShumyatskyNonsolubleLength.theorem_1_1_a",
+    "CFSGOutsideClean.KhukhroShumyatskyNonsolubleLength.theorem_1_1_a_series",
+    "CFSGOutsideClean.KhukhroShumyatskyNonsolubleLength.corollary_1_2",
+    "CFSGOutsideClean.KhukhroShumyatskyNonsolubleLength.theorem_1_1_b"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

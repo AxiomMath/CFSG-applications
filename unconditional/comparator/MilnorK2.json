@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge.MilnorK2.Clean",
+  "solution_module": "CFSGOutsideClean.MilnorK2",
+  "theorem_names": [
+    "CFSGOutsideClean.MilnorK2.K₂_eq_bot",
+    "CFSGOutsideClean.MilnorK2.stToGL_injective"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

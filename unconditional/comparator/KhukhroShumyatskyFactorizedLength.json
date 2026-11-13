@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge.KhukhroShumyatskyFactorizedLength.Clean",
+  "solution_module": "CFSGOutsideClean.KhukhroShumyatskyFactorizedLength",
+  "theorem_names": [
+    "CFSGOutsideClean.KhukhroShumyatskyFactorizedLength.nonsolubleLength_le_of_isFactorization",
+    "CFSGOutsideClean.KhukhroShumyatskyFactorizedLength.nonsolubleLengthLE_of_isFactorization"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

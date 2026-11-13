@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge.WittDesigns.Fast",
+  "solution_module": "CFSGOutside.WittDesigns.Paper",
+  "theorem_names": [
+    "CFSGOutside.WittDesigns.Witt5824.witt_S5824_unique",
+    "CFSGOutside.WittDesigns.Witt4723.witt_S4723_unique",
+    "CFSGOutside.WittDesigns.Witt5612.witt_S5612_unique",
+    "CFSGOutside.WittDesigns.Aut5824.card_aut_S5824",
+    "CFSGOutside.WittDesigns.Aut4723.card_aut_S4723",
+    "CFSGOutside.WittDesigns.M24Five.aut_S5824_five_transitive",
+    "CFSGOutside.WittDesigns.M24Four.aut_S4723_four_transitive",
+    "CFSGOutside.WittDesigns.Witt5612.autHexads_eq_m12",
+    "CFSGOutside.WittDesigns.Witt5612.aut_hexads_sharply_five_transitive"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

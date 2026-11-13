@@ -1,0 +1,16 @@
+{
+  "challenge_module": "Challenge.WittDesigns.Clean",
+  "solution_module": "CFSGOutsideClean.WittDesigns",
+  "theorem_names": [
+    "CFSGOutsideClean.WittDesigns.witt_S5824_unique",
+    "CFSGOutsideClean.WittDesigns.witt_S4723_unique",
+    "CFSGOutsideClean.WittDesigns.witt_S5612_unique",
+    "CFSGOutsideClean.WittDesigns.card_aut_S5824",
+    "CFSGOutsideClean.WittDesigns.card_aut_S4723",
+    "CFSGOutsideClean.WittDesigns.aut_S5824_five_transitive",
+    "CFSGOutsideClean.WittDesigns.aut_S4723_four_transitive",
+    "CFSGOutsideClean.WittDesigns.autHexads_eq_m12",
+    "CFSGOutsideClean.WittDesigns.aut_hexads_sharply_five_transitive"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

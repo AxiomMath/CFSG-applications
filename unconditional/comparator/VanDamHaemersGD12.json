@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Challenge.VanDamHaemersGD12.Clean",
+  "solution_module": "CFSGOutsideClean.VanDamHaemersGD12",
+  "theorem_names": [
+    "CFSGOutsideClean.VanDamHaemersGD12.cage_charpoly",
+    "CFSGOutsideClean.VanDamHaemersGD12.cage_moore",
+    "CFSGOutsideClean.VanDamHaemersGD12.iso_cage_of_moore",
+    "CFSGOutsideClean.VanDamHaemersGD12.charpoly_of_moore",
+    "CFSGOutsideClean.VanDamHaemersGD12.gd12_determined_by_spectrum",
+    "CFSGOutsideClean.VanDamHaemersGD12.cage_determined_by_spectrum"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

@@ -1,0 +1,10 @@
+{
+  "challenge_module": "Challenge.Nagao.Clean",
+  "solution_module": "CFSGOutsideClean.Nagao",
+  "theorem_names": [
+    "CFSGOutsideClean.Nagao.nagao_theorem3",
+    "CFSGOutsideClean.Nagao.nagao_seven_transitive",
+    "CFSGOutsideClean.Nagao.nagao_k_transitive"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

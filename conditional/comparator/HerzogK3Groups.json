@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Challenge.HerzogK3Groups.Fast",
+  "solution_module": "CFSGOutside.HerzogK3Groups.Paper",
+  "theorem_names": [
+    "CFSGOutside.HerzogK3Groups.herzog_orders",
+    "CFSGOutside.HerzogK3Groups.herzog_iso"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge.Baddeley.Clean",
+  "solution_module": "CFSGOutsideClean.Baddeley",
+  "theorem_names": ["CFSGOutsideClean.Baddeley.lemma_6_2", "CFSGOutsideClean.Baddeley.eq_of_isSpecialPair", "CFSGOutsideClean.Baddeley.lemma_6_1"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

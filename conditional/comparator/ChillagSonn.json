@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.ChillagSonn.Fast",
+  "solution_module": "CFSGOutside.ChillagSonn.Theorem1",
+  "theorem_names": [
+    "CFSGOutside.ChillagSonn.theorem_1"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

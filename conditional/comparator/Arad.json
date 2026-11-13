@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.Arad.Fast",
+  "solution_module": "CFSGOutside.Arad.Paper",
+  "theorem_names": [
+    "CFSGOutside.Arad.theorem_B_iii"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

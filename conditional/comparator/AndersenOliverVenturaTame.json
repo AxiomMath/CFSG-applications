@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Challenge.AndersenOliverVenturaTame.Fast",
+  "solution_module": "CFSGOutside.AOVTame.StrongIf",
+  "theorem_names": [
+    "AndersenOliverVentura.Tame.theorem_3_8_tame",
+    "AndersenOliverVentura.Tame.theorem_3_8_stronglyTame"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.GiuliettiKorchmaros.Clean",
+  "solution_module": "CFSGOutsideClean.GiuliettiKorchmaros",
+  "theorem_names": [
+    "CFSGOutsideClean.GiuliettiKorchmaros.theorem_6_1"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

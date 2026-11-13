@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge.SutherlandSmallEll.Clean",
+  "solution_module": "CFSGOutsideClean.SutherlandSmallEll",
+  "theorem_names": [
+    "CFSGOutsideClean.SutherlandSmallEll.sl2_le_of_elements",
+    "CFSGOutsideClean.SutherlandSmallEll.no_third_element_in_sl2"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

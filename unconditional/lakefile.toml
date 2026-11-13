@@ -1,0 +1,19 @@
+name = "cfsg_outside_clean"
+defaultTargets = ["CFSGOutsideClean"]
+
+[leanOptions]
+autoImplicit = false
+relaxedAutoImplicit = false
+
+[[require]]
+name = "cfsg_outside"
+path = "../conditional"
+
+[[require]]
+name = "cfsg"
+git = "https://github.com/AxiomMath/CFSG"
+rev = "69cb972f587a3ecc035e092253167ff2e303c962"
+
+[[lean_lib]]
+name = "CFSGOutsideClean"
+globs = ["CFSGOutsideClean", "CFSGOutsideClean.+"]

@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.GagolaTheorem45.Clean",
+  "solution_module": "CFSGOutsideClean.Gagola",
+  "theorem_names": [
+    "CFSGOutsideClean.Gagola.theorem_4_5"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

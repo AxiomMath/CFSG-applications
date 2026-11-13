@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge.Arad.Clean",
+  "solution_module": "CFSGOutsideClean.Arad",
+  "theorem_names": ["CFSGOutsideClean.Arad.theorem_B_iii", "CFSGOutsideClean.Arad.theorem_B_iii'", "CFSGOutsideClean.Arad.theorem_B_iii_abelian"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

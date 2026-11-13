@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge.AndersenOliverVentura.Clean",
+  "solution_module": "CFSGOutsideClean.AndersenOliverVentura",
+  "theorem_names": [
+    "CFSGOutsideClean.AndersenOliverVentura.realizable_product",
+    "CFSGOutsideClean.AndersenOliverVentura.realizable_factors",
+    "CFSGOutsideClean.AndersenOliverVentura.theorem_3_8_realizable"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

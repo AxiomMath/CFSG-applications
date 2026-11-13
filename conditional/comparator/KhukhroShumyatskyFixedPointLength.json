@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Challenge.KhukhroShumyatskyFixedPointLength.Fast",
+  "solution_module": "CFSGOutside.KhukhroShumyatskyFixedPointLength.Paper",
+  "theorem_names": [
+    "CFSGOutside.KhukhroShumyatskyFixedPointLength.nonsolubleLengthLE_of_coprime_action",
+    "CFSGOutside.KhukhroShumyatskyFixedPointLength.nonsolubleLength_le_of_coprime_action",
+    "CFSGOutside.KhukhroShumyatskyFixedPointLength.nonsolubleLengthLE_of_commSub_eq_top",
+    "CFSGOutside.KhukhroShumyatskyFixedPointLength.nonsolubleLength_le_of_commSub_eq_top",
+    "CFSGOutside.KhukhroShumyatskyFixedPointLength.nonsolubleLengthLE_of_prime",
+    "CFSGOutside.KhukhroShumyatskyFixedPointLength.nonsolubleLength_le_of_prime"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

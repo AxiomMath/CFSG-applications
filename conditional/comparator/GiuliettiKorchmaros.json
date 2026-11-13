@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.GiuliettiKorchmaros.Fast",
+  "solution_module": "CFSGOutside.GiuliettiKorchmaros.Theorem61",
+  "theorem_names": [
+    "CFSGOutside.GiuliettiKorchmaros.theorem_6_1"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge.MilnorK2.Fast",
+  "solution_module": "CFSGOutside.MilnorK2.Paper",
+  "theorem_names": [
+    "CFSGOutside.MilnorK2.K₂_eq_bot",
+    "CFSGOutside.MilnorK2.stToGL_injective"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

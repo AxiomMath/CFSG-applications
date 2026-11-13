@@ -1,0 +1,11 @@
+{
+  "challenge_module": "Challenge.Leemans.Fast",
+  "solution_module": "CFSGOutside.Leemans.Paper",
+  "theorem_names": [
+    "CFSGOutside.Leemans.leemans_theorem_1",
+    "CFSGOutside.Leemans.leemans_suzuki",
+    "CFSGOutside.Leemans.eq_inner_of_closure_involutions",
+    "CFSGOutside.Leemans.exists_isStringCGroup_inner"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

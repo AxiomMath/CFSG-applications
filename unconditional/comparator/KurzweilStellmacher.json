@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.KurzweilStellmacher.Clean",
+  "solution_module": "CFSGOutsideClean.KurzweilStellmacher",
+  "theorem_names": [
+    "CFSGOutsideClean.KurzweilStellmacher.solvable_of_solvable_centralizers"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

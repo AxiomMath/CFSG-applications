@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.CravenGlesser.Clean",
+  "solution_module": "CFSGOutsideClean.CravenGlesser",
+  "theorem_names": [
+    "CFSGOutsideClean.CravenGlesser.lemma_6_11"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

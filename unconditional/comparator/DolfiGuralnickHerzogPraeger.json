@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge.DolfiGuralnickHerzogPraeger.Clean",
+  "solution_module": "CFSGOutsideClean.DolfiGuralnickHerzogPraeger",
+  "theorem_names": [
+    "CFSGOutsideClean.DolfiGuralnickHerzogPraeger.lemma_4_3"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

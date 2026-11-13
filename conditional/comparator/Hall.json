@@ -1,0 +1,12 @@
+{
+  "challenge_module": "Challenge.Hall.Fast",
+  "solution_module": "CFSGOutside.Hall.Paper",
+  "theorem_names": [
+    "CFSGOutside.Hall.theorem_1_1"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

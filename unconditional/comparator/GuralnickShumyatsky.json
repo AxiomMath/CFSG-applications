@@ -1,0 +1,12 @@
+{
+  "challenge_module": "Challenge.GuralnickShumyatsky.Clean",
+  "solution_module": "CFSGOutsideClean.GuralnickShumyatsky",
+  "theorem_names": [
+    "CFSGOutsideClean.GuralnickShumyatsky.theorem_3_1",
+    "CFSGOutsideClean.GuralnickShumyatsky.theorem_3_6",
+    "CFSGOutsideClean.GuralnickShumyatsky.corollary_3_3",
+    "CFSGOutsideClean.GuralnickShumyatsky.corollary_3_4",
+    "CFSGOutsideClean.GuralnickShumyatsky.corollary_3_5"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

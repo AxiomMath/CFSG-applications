@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge.KurdachenkoShumyatsky.Clean",
+  "solution_module": "CFSGOutsideClean.KurdachenkoShumyatsky",
+  "theorem_names": ["CFSGOutsideClean.KurdachenkoShumyatsky.schrei"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

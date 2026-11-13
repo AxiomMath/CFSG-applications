@@ -1,0 +1,11 @@
+{
+  "challenge_module": "Challenge.Serre.Clean",
+  "solution_module": "CFSGOutsideClean.Serre",
+  "theorem_names": [
+    "CFSGOutsideClean.Serre.card_ne_of_inSigma",
+    "CFSGOutsideClean.Serre.sigma_disjoint",
+    "CFSGOutsideClean.Serre.psl2_five_mem_sigma",
+    "CFSGOutsideClean.Serre.alternatingGroup_five_mem_sigma"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

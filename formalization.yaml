@@ -1,0 +1,318 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Beyond the classification"
+  description: >-
+    Published theorems from outside the classification of finite simple groups, formalized in Lean 4 on top of the CFSG corpus (AxiomMath/CFSG at commit 69cb972). Each result is given conditionally on the corpus theorems it uses and unconditionally against the corpus.
+  authors:
+    - "Axiom Math"
+  responsible_maintainers:
+    - "Rafael Cabral"
+    - "Vasily Ilin"
+  license: "Apache-2.0"
+
+classification:
+  arxiv: ["math.GR"]
+  msc2020:
+    - "20D05" # Finite simple groups and their classification
+    - "68V20" # Formalization of mathematics in connection with theorem provers
+
+sources:
+  - title: "É. Galois, letter to Auguste Chevalier, 29 May 1832."
+    id: "galois-1832-letter-to-chevalier"
+    relationship: formalizes
+  - title: "M. Herzog, On finite simple groups of order divisible by three primes only, J. Algebra 10 (1968), 383–388."
+    id: "https://doi.org/10.1016/0021-8693(68)90088-4"
+    relationship: formalizes
+  - title: "A. V. Sutherland, Computing images of Galois representations attached to elliptic curves, Forum Math. Sigma 4 (2016), e4, Proposition 5.8, extended to all primes ℓ ≥ 5."
+    id: "https://doi.org/10.1017/fms.2015.33"
+    relationship: formalizes
+  - title: "E. Witt, Die 5-fach transitiven Gruppen von Mathieu, Abh. Math. Sem. Univ. Hamburg 12 (1938), 256–264."
+    id: "https://doi.org/10.1007/BF02948947"
+    relationship: formalizes
+  - title: "E. Witt, Über Steinersche Systeme, Abh. Math. Sem. Univ. Hamburg 12 (1938), 265–275."
+    id: "https://doi.org/10.1007/BF02948948"
+    relationship: formalizes
+  - title: "D. Loeffler, Images of adelic Galois representations for modular forms, Glasgow Math. J. 59 (2017), 11–25, Lemma 1.1.2."
+    id: "https://doi.org/10.1017/S0017089516000367"
+    relationship: formalizes
+  - title: "M. Hall and L. J. Paige, Complete mappings of finite groups, Pacific J. Math. 5 (1955), 541–549, Theorem 5 and the conjecture of §1; proved by S. Wilcox (2009), A. B. Evans (2009) and J. N. Bray, Q. Cai, P. J. Cameron, P. Spiga, H. Zhang (2020)."
+    id: "https://doi.org/10.2140/pjm.1955.5.541"
+    relationship: formalizes
+  - title: "J.-P. Serre, Un critère d'indépendance pour une famille de représentations ℓ-adiques, Comment. Math. Helv. 88 (2013), 541–554, Théorème 5 and the remark on orders after it, §6.4."
+    id: "https://arxiv.org/abs/1006.2442"
+    relationship: formalizes
+  - title: "J. Milnor, Introduction to Algebraic K-theory, Ann. of Math. Studies 72 (1971), Corollary 9.13 (finite fields; due to R. Steinberg)."
+    id: "https://doi.org/10.1515/9781400881796"
+    relationship: formalizes
+  - title: "H. Nagao, On multiply transitive groups I, Nagoya Math. J. 27 (1966), 15–19, Theorem 3."
+    id: "https://doi.org/10.1017/S0027763000011818"
+    relationship: formalizes
+  - title: "S. M. Gagola, Jr., Characters fully ramified over a normal subgroup, Pacific J. Math. 55 (1974), 107–126, Theorem 4.5."
+    id: "https://doi.org/10.2140/pjm.1974.55.107"
+    relationship: formalizes
+  - title: "C. Hall, Big symplectic or orthogonal monodromy modulo ℓ, Duke Math. J. 141 (2008), 179–203, Theorem 1.1."
+    id: "https://doi.org/10.1215/S0012-7094-08-14115-8"
+    relationship: formalizes
+  - title: "M. Giulietti and G. Korchmáros, Algebraic curves with many automorphisms, Adv. Math. 349 (2019), 162–211, Theorem 6.1."
+    id: "https://doi.org/10.1016/j.aim.2019.04.003"
+    relationship: formalizes
+  - title: "D. Chillag and J. Sonn, Sylow-metacyclic groups and Q-admissibility, Israel J. Math. 40 (1981), 307–323, Theorem 1."
+    id: "https://doi.org/10.1007/BF02761371"
+    relationship: formalizes
+  - title: "R. W. Baddeley, Two-arc transitive graphs and twisted wreath products, J. Algebraic Combin. 2 (1993), 215–237, Lemmas 6.1 and 6.2."
+    id: "https://doi.org/10.1023/A:1022447514654"
+    relationship: formalizes
+  - title: "X. Ma, G. L. Walls, K. Wang, S. Zhou, Subgroup perfect codes in Cayley graphs, SIAM J. Discrete Math. 34 (2020), 1909–1921, Theorem 1.1 and Corollary 1.4."
+    id: "https://doi.org/10.1137/19m1258013"
+    relationship: formalizes
+  - title: "D. Leemans, Almost simple groups of Suzuki type acting on polytopes, Proc. Amer. Math. Soc. 134 (2006), 3649–3651, Theorem 1."
+    id: "https://doi.org/10.1090/S0002-9939-06-08448-6"
+    relationship: formalizes
+  - title: "E. I. Khukhro and P. Shumyatsky, Nonsoluble and non-p-soluble length of finite groups, Israel J. Math. 207 (2015), 507–525, Theorem 1.1 and Corollary 1.2."
+    id: "https://doi.org/10.1007/s11856-015-1180-x"
+    relationship: formalizes
+  - title: "E. I. Khukhro and P. Shumyatsky, On the length of finite factorized groups, Ann. Mat. Pura Appl. 194 (2015), 1775–1780, Theorem 1.1."
+    id: "https://doi.org/10.1007/s10231-014-0443-1"
+    relationship: formalizes
+  - title: "E. I. Khukhro and P. Shumyatsky, On the length of finite groups and of fixed points, Proc. Amer. Math. Soc. 143 (2015), 3781–3790, Theorem 1.3 and Proposition 3.2."
+    id: "https://arxiv.org/abs/1405.1946"
+    relationship: formalizes
+  - title: "J. S. Wilson, On the structure of compact torsion groups, Monatsh. Math. 96 (1983), 57–66, Theorem 2* and Lemma 4(ii)."
+    id: "https://eudml.org/doc/178137"
+    relationship: formalizes
+  - title: "L. A. Kurdachenko and P. Shumyatsky, The ranks of central factor and commutator groups, Math. Proc. Cambridge Philos. Soc. 154 (2013), 63–69, lemma before the proof of Theorem 1."
+    id: "https://doi.org/10.1017/S0305004112000412"
+    relationship: formalizes
+  - title: "D. J. S. Robinson, The structure of finite groups in which permutability is a transitive relation, J. Austral. Math. Soc. 70 (2001), 143–159, Propositions 2.3 and 2.4, Corollary 2.5 and Lemma 2.6."
+    id: "https://doi.org/10.1017/S1446788700002573"
+    relationship: formalizes
+  - title: "W. Kimmerle and A. Konovalov, On the Gruenberg–Kegel graph of integral group rings of finite groups, Internat. J. Algebra Comput. 27 (2017), 619–631, Corollary 2.6."
+    id: "https://doi.org/10.1142/S0218196717500308"
+    relationship: formalizes
+  - title: "R. M. Guralnick and P. Shumyatsky, Derived subgroups of fixed points, Israel J. Math. 126 (2001), 345–362, Theorems 3.1 and 3.6, Corollaries 3.3–3.5."
+    id: "https://doi.org/10.1007/BF02784161"
+    relationship: formalizes
+  - title: "Z. Arad, π-homogeneity and π′-closure of finite groups, Pacific J. Math. 51 (1974), 1–9, Theorem B(iii)."
+    id: "https://doi.org/10.2140/pjm.1974.51.1"
+    relationship: formalizes
+  - title: "S. Dolfi, R. M. Guralnick, M. Herzog, C. E. Praeger, A new solvability criterion for finite groups, J. London Math. Soc. (2) 85 (2012), 269–281, Lemma 4.3."
+    id: "https://arxiv.org/abs/1105.0475"
+    relationship: formalizes
+  - title: "K. K. S. Andersen, B. Oliver, J. Ventura, Reduced, tame and exotic fusion systems, Proc. London Math. Soc. (3) 105 (2012), 87–152, Theorem 3.8."
+    id: "https://doi.org/10.1112/plms/pdr065"
+    relationship: formalizes
+  - title: "H. Kurzweil and B. Stellmacher, The Theory of Finite Groups, Universitext (2004), Corollary 11.3.3."
+    id: "https://doi.org/10.1007/b97433"
+    relationship: formalizes
+  - title: "E. R. van Dam and W. H. Haemers, Which graphs are determined by their spectrum?, Linear Algebra Appl. 373 (2003), 241–272, Table 4, entry GD(1,2)."
+    id: "https://doi.org/10.1016/S0024-3795(03)00483-X"
+    relationship: formalizes
+  - title: "D. A. Craven and A. Glesser, Fusion systems on small p-groups, Trans. Amer. Math. Soc. 364 (2012), 5945–5967, Lemma 6.11."
+    id: "https://doi.org/10.1090/S0002-9947-2012-05580-2"
+    relationship: formalizes
+
+related_formalizations:
+  - id: "https://github.com/AxiomMath/CFSG/tree/69cb972f587a3ecc035e092253167ff2e303c962"
+    relationship: builds-on
+    note: "The conditional versions take corpus theorems as hypotheses; their statements are copied verbatim into conditional/CFSGOutside/Corpus."
+
+status:
+  scope: "30 published results. Each is proved conditionally on the corpus theorems it uses, and unconditionally from the corpus. The unconditional Hall–Paige proof has not finished a check, so its main result listed is the conditional one."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  main_results:
+    - declaration: "CFSGOutsideClean.GaloisMinimalDegree.galois_iff_primePower"
+      file: "unconditional/CFSGOutsideClean/GaloisMinimalDegree.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/GaloisMinimalDegree.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.HerzogK3Groups.herzog_iso"
+      file: "unconditional/CFSGOutsideClean/HerzogK3Groups.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/HerzogK3Groups.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.SutherlandSmallEll.sl2_le_of_elements"
+      file: "unconditional/CFSGOutsideClean/SutherlandSmallEll.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/SutherlandSmallEll.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.WittDesigns.witt_S5824_unique"
+      file: "unconditional/CFSGOutsideClean/WittDesigns.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/WittDesigns.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.LoefflerPsl2Sections.loeffler_simple_section"
+      file: "unconditional/CFSGOutsideClean/LoefflerPsl2Sections.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/LoefflerPsl2Sections.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutside.HallPaige.hall_paige"
+      file: "conditional/CFSGOutside/HallPaige/Main.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "conditional/comparator/HallPaige.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Serre.card_ne_of_inSigma"
+      file: "unconditional/CFSGOutsideClean/Serre.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Serre.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.MilnorK2.K₂_eq_bot"
+      file: "unconditional/CFSGOutsideClean/MilnorK2.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/MilnorK2.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Nagao.nagao_theorem3"
+      file: "unconditional/CFSGOutsideClean/Nagao.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Nagao.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Gagola.theorem_4_5"
+      file: "unconditional/CFSGOutsideClean/Gagola.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/GagolaTheorem45.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Hall.theorem_1_1"
+      file: "unconditional/CFSGOutsideClean/Hall.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Hall.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.GiuliettiKorchmaros.theorem_6_1"
+      file: "unconditional/CFSGOutsideClean/GiuliettiKorchmaros.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/GiuliettiKorchmaros.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.ChillagSonn.theorem_1"
+      file: "unconditional/CFSGOutsideClean/ChillagSonn.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/ChillagSonn.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Baddeley.lemma_6_2"
+      file: "unconditional/CFSGOutsideClean/Baddeley.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Baddeley.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.MaWallsWangZhou.codePerfect_iff"
+      file: "unconditional/CFSGOutsideClean/MaWallsWangZhou.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/MaWallsWangZhou.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Leemans.leemans_theorem_1"
+      file: "unconditional/CFSGOutsideClean/Leemans.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Leemans.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.KhukhroShumyatskyNonsolubleLength.theorem_1_1_a"
+      file: "unconditional/CFSGOutsideClean/KhukhroShumyatskyNonsolubleLength.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/KhukhroShumyatskyNonsolubleLength.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.KhukhroShumyatskyFactorizedLength.nonsolubleLength_le_of_isFactorization"
+      file: "unconditional/CFSGOutsideClean/KhukhroShumyatskyFactorizedLength.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/KhukhroShumyatskyFactorizedLength.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.KhukhroShumyatskyFixedPointLength.nonsolubleLength_le_of_coprime_action"
+      file: "unconditional/CFSGOutsideClean/KhukhroShumyatskyFixedPointLength.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/KhukhroShumyatskyFixedPointLength.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Wilson.wilson_theorem2star"
+      file: "unconditional/CFSGOutsideClean/Wilson.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Wilson.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.KurdachenkoShumyatsky.schrei"
+      file: "unconditional/CFSGOutsideClean/KurdachenkoShumyatsky.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/KurdachenkoShumyatsky.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Robinson.proposition_2_3"
+      file: "unconditional/CFSGOutsideClean/Robinson.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Robinson.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.KimmerleKonovalov.cor26"
+      file: "unconditional/CFSGOutsideClean/KimmerleKonovalov.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/KimmerleKonovalov.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.GuralnickShumyatsky.theorem_3_1"
+      file: "unconditional/CFSGOutsideClean/GuralnickShumyatsky.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/GuralnickShumyatsky.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.Arad.theorem_B_iii"
+      file: "unconditional/CFSGOutsideClean/Arad.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/Arad.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.DolfiGuralnickHerzogPraeger.lemma_4_3"
+      file: "unconditional/CFSGOutsideClean/DolfiGuralnickHerzogPraeger.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/DolfiGuralnickHerzogPraeger.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.AndersenOliverVentura.Tame.theorem_3_8_tame"
+      file: "unconditional/CFSGOutsideClean/AndersenOliverVentura.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/AndersenOliverVenturaTame.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.KurzweilStellmacher.solvable_of_solvable_centralizers"
+      file: "unconditional/CFSGOutsideClean/KurzweilStellmacher.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/KurzweilStellmacher.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.VanDamHaemersGD12.cage_determined_by_spectrum"
+      file: "unconditional/CFSGOutsideClean/VanDamHaemersGD12.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/VanDamHaemersGD12.json"
+      literature_dependencies: []
+    - declaration: "CFSGOutsideClean.CravenGlesser.lemma_6_11"
+      file: "unconditional/CFSGOutsideClean/CravenGlesser.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "unconditional/comparator/CravenGlesser.json"
+      literature_dependencies: []
+
+automation:
+  methods:
+    - method: autonomous
+      framework: "AxiomProver"
+
+review:
+  status: self-assessed
+  reviewers: ["Axiom Math"]
+
+acknowledgements: >-
+    We thank the Mathlib and Tau Ceti contributors.

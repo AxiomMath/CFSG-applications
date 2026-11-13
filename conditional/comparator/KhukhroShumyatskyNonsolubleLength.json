@@ -1,0 +1,11 @@
+{
+  "challenge_module": "Challenge.KhukhroShumyatskyNonsolubleLength.Fast",
+  "solution_module": "CFSGOutside.KhukhroShumyatskyNonsolubleLength.Paper",
+  "theorem_names": [
+    "CFSGOutside.KhukhroShumyatskyNonsolubleLength.theorem_1_1_a",
+    "CFSGOutside.KhukhroShumyatskyNonsolubleLength.theorem_1_1_a_series",
+    "CFSGOutside.KhukhroShumyatskyNonsolubleLength.corollary_1_2",
+    "CFSGOutside.KhukhroShumyatskyNonsolubleLength.theorem_1_1_b"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

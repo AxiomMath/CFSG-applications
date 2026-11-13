@@ -1,0 +1,10 @@
+{
+  "challenge_module": "Challenge.MaWallsWangZhou.Clean",
+  "solution_module": "CFSGOutsideClean.MaWallsWangZhou",
+  "theorem_names": [
+    "CFSGOutsideClean.MaWallsWangZhou.codePerfect_iff",
+    "CFSGOutsideClean.MaWallsWangZhou.simple_codePerfect_iff",
+    "CFSGOutsideClean.MaWallsWangZhou.simple_codePerfect_iff_ree"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

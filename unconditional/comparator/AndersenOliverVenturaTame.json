@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Challenge.AndersenOliverVenturaTame.Clean",
+  "solution_module": "CFSGOutsideClean.AndersenOliverVentura",
+  "theorem_names": [
+    "CFSGOutsideClean.AndersenOliverVentura.Tame.theorem_3_8_tame",
+    "CFSGOutsideClean.AndersenOliverVentura.Tame.theorem_3_8_stronglyTame"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

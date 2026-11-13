@@ -1,0 +1,11 @@
+{
+  "challenge_module": "Challenge.Serre.Fast",
+  "solution_module": "CFSGOutside.Serre.Paper",
+  "theorem_names": [
+    "CFSGOutside.Serre.card_ne_of_inSigma",
+    "CFSGOutside.Serre.sigma_disjoint",
+    "CFSGOutside.Serre.psl2_five_mem_sigma",
+    "CFSGOutside.Serre.alternatingGroup_five_mem_sigma"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

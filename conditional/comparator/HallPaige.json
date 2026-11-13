@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge.HallPaige.Fast",
+  "solution_module": "CFSGOutside.HallPaige.Main",
+  "theorem_names": [
+    "CFSGOutside.HallPaige.isGood_of_hasCompleteMapping",
+    "CFSGOutside.HallPaige.hall_paige"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

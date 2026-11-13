@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge.Robinson.Fast",
+  "solution_module": "CFSGOutside.Robinson.Paper",
+  "theorem_names": ["CFSGOutside.Robinson.proposition_2_3", "CFSGOutside.Robinson.proposition_2_4", "CFSGOutside.Robinson.corollary_2_5", "CFSGOutside.Robinson.lemma_2_6_i", "CFSGOutside.Robinson.lemma_2_6_ii", "CFSGOutside.Robinson.proposition_2_3_derivedLimit", "CFSGOutside.Robinson.proposition_2_4_derivedLimit"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

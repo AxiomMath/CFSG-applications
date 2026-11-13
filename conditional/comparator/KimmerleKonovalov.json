@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge.KimmerleKonovalov.Fast",
+  "solution_module": "CFSGOutside.KimmerleKonovalov.Paper",
+  "theorem_names": ["KimmerleKonovalov.cor26", "KimmerleKonovalov.cor26_abstract"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

@@ -1,0 +1,12 @@
+{
+  "challenge_module": "Challenge.Hall.Clean",
+  "solution_module": "CFSGOutsideClean.Hall",
+  "theorem_names": [
+    "CFSGOutsideClean.Hall.theorem_1_1"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

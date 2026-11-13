@@ -1,0 +1,47 @@
+import CFSGOutside.HallPaige.Sporadic.HN.Cert
+
+/-! Generated block checks for `HN`. -/
+
+namespace CFSGOutside.HallPaige.Sporadic.HNData
+
+open CFSGOutside.HallPaige.PermKit CFSGOutside.HallPaige.PermKitF
+
+set_option maxHeartbeats 0
+
+theorem b_inv3_48 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 48 = true := by
+  decide +kernel
+
+theorem b_inv3_49 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 49 = true := by
+  decide +kernel
+
+theorem b_inv3_50 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 50 = true := by
+  decide +kernel
+
+theorem b_inv3_51 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 51 = true := by
+  decide +kernel
+
+theorem b_inv3_52 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 52 = true := by
+  decide +kernel
+
+theorem b_inv3_53 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 53 = true := by
+  decide +kernel
+
+theorem b_inv3_54 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 54 = true := by
+  decide +kernel
+
+theorem b_inv3_55 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 55 = true := by
+  decide +kernel
+
+theorem b_inv3_56 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 56 = true := by
+  decide +kernel
+
+theorem b_inv3_57 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 57 = true := by
+  decide +kernel
+
+theorem b_inv3_58 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 58 = true := by
+  decide +kernel
+
+theorem b_inv3_59 : allBlock (cert.invGPt (cert.gs1.getD 3 0)) cert.n 16384 59 = true := by
+  decide +kernel
+
+end CFSGOutside.HallPaige.Sporadic.HNData

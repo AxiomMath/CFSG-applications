@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge.Robinson.Clean",
+  "solution_module": "CFSGOutsideClean.Robinson",
+  "theorem_names": ["CFSGOutsideClean.Robinson.proposition_2_3", "CFSGOutsideClean.Robinson.proposition_2_4", "CFSGOutsideClean.Robinson.corollary_2_5", "CFSGOutsideClean.Robinson.lemma_2_6_i", "CFSGOutsideClean.Robinson.lemma_2_6_ii", "CFSGOutsideClean.Robinson.proposition_2_3_derivedLimit", "CFSGOutsideClean.Robinson.proposition_2_4_derivedLimit"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

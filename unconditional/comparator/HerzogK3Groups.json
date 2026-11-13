@@ -1,0 +1,13 @@
+{
+  "challenge_module": "Challenge.HerzogK3Groups.Clean",
+  "solution_module": "CFSGOutsideClean.HerzogK3Groups",
+  "theorem_names": [
+    "CFSGOutsideClean.HerzogK3Groups.herzog_orders",
+    "CFSGOutsideClean.HerzogK3Groups.herzog_iso"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

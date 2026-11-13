@@ -1,0 +1,9 @@
+{
+  "challenge_module": "Challenge.GaloisMinimalDegree.Clean",
+  "solution_module": "CFSGOutsideClean.GaloisMinimalDegree",
+  "theorem_names": [
+    "CFSGOutsideClean.GaloisMinimalDegree.galois_iff_primePower",
+    "CFSGOutsideClean.GaloisMinimalDegree.galois_exact_index"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

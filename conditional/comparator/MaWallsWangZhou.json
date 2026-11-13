@@ -1,0 +1,10 @@
+{
+  "challenge_module": "Challenge.MaWallsWangZhou.Fast",
+  "solution_module": "CFSGOutside.MaWallsWangZhou.Paper",
+  "theorem_names": [
+    "CFSGOutside.MaWallsWangZhou.codePerfect_iff",
+    "CFSGOutside.MaWallsWangZhou.simple_codePerfect_iff",
+    "CFSGOutside.MaWallsWangZhou.simple_codePerfect_iff_ree"
+  ],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}

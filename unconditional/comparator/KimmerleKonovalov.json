@@ -1,0 +1,6 @@
+{
+  "challenge_module": "Challenge.KimmerleKonovalov.Clean",
+  "solution_module": "CFSGOutsideClean.KimmerleKonovalov",
+  "theorem_names": ["CFSGOutsideClean.KimmerleKonovalov.cor26", "CFSGOutsideClean.KimmerleKonovalov.cor26_abstract"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"]
+}
