@@ -8,7 +8,7 @@
    "name": "cfsg_outside",
    "manifestFile": "lake-manifest.json",
    "inherited": false,
-   "dir": "./../results_conditional",
+   "dir": "./../conditional",
    "configFile": "lakefile.toml"
   },
   {
